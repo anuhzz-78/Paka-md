@@ -9,11 +9,11 @@ SESSION_ID: process.env.SESSION_ID || "ZQoW0LpR#LChxWv9sF99n-YJY6HLopiVLi9fhoozd
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW ALI-MD 👻*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "𝘼𝙐𝙏𝙊 𝙎𝙏𝘼𝙏𝙐𝙎 𝙎𝙀𝙀𝙉 𝘽𝙔 𝘼𝙉𝙐𝙃𝘼𝙎-𝙈𝘿 𝙒𝙃𝘼𝙏𝙎 𝘼𝙋𝙋 𝘽𝙊𝙏 🐼💗❞",
 // set the auto reply massage on status reply  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -33,7 +33,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ANUHAS",
 // add bot owner name
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
-DESCRIPTION: process.env.DESCRIPTION || "*𝗠𝗔𝗗𝗘 𝗕𝗬 𝗔𝗡𝗨𝗛𝗔𝗦-𝗠𝗗*",
+DESCRIPTION: process.env.DESCRIPTION || "*○──𝗠𝗔𝗗𝗘 𝗕𝗬 𝗔𝗡𝗨𝗛𝗔𝗦-𝗠𝗗──◯*",
 // add bot owner name    
 ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/sJN4RHxq/091df30756af4357.jpg",
 // add img for alive msg
@@ -49,11 +49,11 @@ MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
 ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
-AUTO_VOICE: process.env.AUTO_VOICE || "false",
+AUTO_VOICE: process.env.AUTO_VOICE || "true",
 // make true for send automatic voices
-AUTO_STICKER: process.env.AUTO_STICKER || "false",
+AUTO_STICKER: process.env.AUTO_STICKER || "true",
 // make true for automatic stickers 
-AUTO_REPLY: process.env.AUTO_REPLY || "false",
+AUTO_REPLY: process.env.AUTO_REPLY || "true",
 // make true or false automatic text reply 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
