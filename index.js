@@ -46,7 +46,7 @@ const {
   const online = config.ALWAYS_ONLINE
   const status = config.AUTO_STATUS_SEEN
   
-  const ownerNumber = ['923003588997']
+  const ownerNumber = ['94723896912']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
