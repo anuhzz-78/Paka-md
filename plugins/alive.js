@@ -3,13 +3,13 @@ const { cmd } = require("../command");
 const moment = require("moment");
 
 let botStartTime = Date.now(); // Enregistrement de l'heure de démarrage du bot
-const ALIVE_IMG = "https://i.ibb.co/60pdvSxw/mrfrankofc.jpg"; // Assurez-vous que cette URL est valide
+const ALIVE_IMG = "https://i.ibb.co/sJN4RHxq/091df30756af4357.jpg"; // Assurez-vous que cette URL est valide
 
 cmd({
     pattern: "alive",
     desc: "Check if the bot is active.",
     category: "info",
-    react: "🤖",
+    react: "🐼",
     filename: __filename
 }, async (conn, mek, m, { reply, from }) => {
     try {
@@ -23,15 +23,16 @@ cmd({
         const runtimeHours = Math.floor(runtimeMilliseconds / (1000 * 60 * 60));
 
         const formattedInfo = `
-🌟 *ALI MD V1 STATUS* 🌟
+🐼 𝗔𝗡𝗨𝗛𝗔𝗦-𝗠𝗗 𝗔𝗟𝗜𝗩𝗘 𝗡𝗢𝗪 🐼
+━━━━━━━━━━━━━━━━━━━━━━━━━○►
 Hey 👋🏻 ${pushname}
 🕒 *Time*: ${currentTime}
 📅 *Date*: ${currentDate}
 ⏳ *Uptime*: ${runtimeHours} hours, ${runtimeMinutes} minutes, ${runtimeSeconds} seconds
+━━━━━━━━━━━━━━━━━━━━━━━━━○►
 
-*🤖sᴛᴀᴛᴜs*: *ᴀʟɪ-ᴍᴅ ᴀʟɪᴠᴇ ᴀɴᴅ ʀᴇᴀᴅʏ*
 
-*🤍ᴍᴀᴅᴇ ᴡɪᴛʜ ʟᴏᴠᴇ*
+> 𝗔𝗡𝗨𝗛𝗔𝗦-𝗠𝗗 🐼
         `.trim();
 
         // Vérifier si l'image est définie
@@ -48,8 +49,8 @@ Hey 👋🏻 ${pushname}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363318387454868@newsletter',
-                    newsletterName: '𝐀ɭι̇ι̇ 𝐌Ɗ 🍁',
+                    newsletterJid: '120364868@newsletter',
+                    newsletterName: 'ᴀɴᴜʜᴀꜱ ᴘʀᴏɢʀᴀᴍ ➝',
                     serverMessageId: 143
                 }
             }
