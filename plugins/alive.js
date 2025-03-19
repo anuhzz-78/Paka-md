@@ -36,7 +36,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/0j2tdPB9/lordali.jpg` },
+                video: { url: `https://github.com/WIHANGA-01/OUR-BAS/raw/refs/heads/main/vc/InShot_20250316_194240341.mp4` },
                 caption: status,
                 contextInfo: {
                     mentionedJid: [m.sender],
