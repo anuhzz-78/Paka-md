@@ -28,7 +28,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         `;
 
         // Send audio
-        await conn.sendMessage(from, {audio: { url: 'https://github.com/WIHANGA-01/OUR-BAS/raw/refs/heads/main/vc/Welcome%20.mp3' },
+        await conn.sendMessage(from, {audio: { url: 'https://github.com/WIHANGA-01/OUR-BAS/raw/refs/heads/main/vc/velcomtomd.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
