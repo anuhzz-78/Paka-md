@@ -9,7 +9,7 @@ SESSION_ID: process.env.SESSION_ID || "ZQoW0LpR#LChxWv9sF99n-YJY6HLopiVLi9fhoozd
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
@@ -17,9 +17,9 @@ AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW ALI-
 // set the auto reply massage on status reply  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "ALI-MD",
+BOT_NAME: process.env.BOT_NAME || "ANUHAS-MD",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "ALI-MD",
+STICKER_NAME: process.env.STICKER_NAME || "ANUHAS-MD🐼",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -29,13 +29,13 @@ DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 OWNER_NUMBER: process.env.OWNER_NUMBER || "94723896912",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "ALI",
+OWNER_NAME: process.env.OWNER_NAME || "ANUHAS",
 // add bot owner name
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
-DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ALI*",
+DESCRIPTION: process.env.DESCRIPTION || "*𝗠𝗔𝗗𝗘 𝗕𝗬 𝗔𝗡𝗨𝗛𝗔𝗦-𝗠𝗗*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://cdn.ironman.my.id/i/2du3i5.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/sJN4RHxq/091df30756af4357.jpg",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> HEY 👋 IM ALIVE NOW*⚡",
 // add alive msg here 
