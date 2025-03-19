@@ -13,9 +13,9 @@ cmd({
 async (conn, mek, m, { from }) => {
     try {
         // Owner's contact info
-        const ownerNumber = '+923003588997'; // Replace this with the actual owner number
-        const ownerName = '𓆩ု᪳𝐀𝐋𝐈 𝐈𝐍𝅦𝐒i͜͡𝐃𝐄ှ᪳𓆪'; // Replace this with the owner's name
-        const organization = 'UD TEAM'; // Optional: replace with the owner's organization
+        const ownerNumber = '+94723896912'; // Replace this with the actual owner number
+        const ownerName = '𝗔𝗡𝗨𝗛𝗔𝗦-𝗠𝗗'; // Replace this with the owner's name
+        const organization = 'ANUHAS-TEAM'; // Optional: replace with the owner's organization
 
         // Create a vCard (contact card) for the owner
         const vcard = 'BEGIN:VCARD\n' +
