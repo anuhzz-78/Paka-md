@@ -57,7 +57,7 @@ let madeMenu = `*╭══〘〘 ${config.BOT_NAME} 〙〙*
 *┃❍ ʀᴀᴍ* : *34.56 ɢʙ/60.79*
 *┃❍ ᴄʀᴇᴀᴛᴏʀ* : *ᴀʟɪ ɪɴxɪᴅᴇ*
 *┃❍ ᴀʟᴡᴀʏs ᴏɴʟɪɴᴇ* : *${config.ALWAYS_ONLINE}*
-*┃❍ ᴠᴇʀsɪᴏɴs* : *ᴠ.4.1.0*
+*┃❍ ᴠᴇʀsɪᴏɴs* : *ᴠ.1.0.0*
 *╰═════════════════⊷*
  *♡︎•━━━━━━☻︎━━━━━━•♡︎*
 *╭────❒⁠⁠⁠⁠* *📥 DOWNLOADER-CMD 📥* *❒⁠⁠⁠⁠* 
@@ -294,7 +294,7 @@ let madeMenu = `*╭══〘〘 ${config.BOT_NAME} 〙〙*
 *├⬡ .ᴅᴀɪʟʏꜰᴀᴄᴛ*
 *├⬡ .ᴍɪɴᴜᴛᴏʀ*
 *┕──────────────────❒*
-> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʟɪ*`
+> 𝗔𝗡𝗨𝗛𝗔𝗦-𝗠𝗗 🐼`
 
 await conn.sendMessage(from,{image:{url: config.ALIVE_IMG},caption:madeMenu,
                              contextInfo: {
@@ -302,8 +302,8 @@ await conn.sendMessage(from,{image:{url: config.ALIVE_IMG},caption:madeMenu,
     forwardingScore: 999,
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: '120363318387454868@newsletter',
-      newsletterName: '𓆩ྀི͛𝐀ɭīī 𝐌Ɗ 𝚩❍𝐓 𝐌𝛆፝֟፝֟ƞ̽ʊྀི̊𓆪͛',
+      newsletterJid: '12036354868@newsletter',
+      newsletterName: 'ᴀɴᴜʜᴀꜱ ᴘʀᴏɢʀᴀᴍ ➝',
       serverMessageId: 999
     }
   }
