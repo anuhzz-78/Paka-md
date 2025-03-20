@@ -36,6 +36,7 @@ ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 DESCRIPTION: process.env.DESCRIPTION || "*○──𝗠𝗔𝗗𝗘 𝗕𝗬 𝗔𝗡𝗨𝗛𝗔𝗦-𝗠𝗗──◯*",
 // add bot owner name    
 ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/sJN4RHxq/091df30756af4357.jpg",
+MENU_IMG: process.env.MENU_IMG || "https://github.com/anuhzz-78/Paka-md/raw/refs/heads/main/anuhas-base/mp4/InShot_20250320_140051753.mp4",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> HEY 👋 IM ALIVE NOW*⚡",
 // add alive msg here 
