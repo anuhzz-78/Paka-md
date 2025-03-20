@@ -267,7 +267,7 @@ let madeMenu = `*╭══〘〘 ${config.BOT_NAME} 〙〙*
 *┕──────────────────❒*
 > 𝗔𝗡𝗨𝗛𝗔𝗦-𝗠𝗗    🐼 `
 
-await conn.sendMessage(from,{image:{url: config.ALIVE_IMG},caption:madeMenu,
+await conn.sendMessage(from,{video:{url: config.MENU_IMG},caption:madeMenu,
                              contextInfo: {
     mentionedJid: [m.sender],
     forwardingScore: 999,
