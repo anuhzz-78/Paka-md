@@ -161,7 +161,7 @@ const port = process.env.PORT || 9090;
     }
   if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REACT === "true"){
     const jawadlike = await conn.decodeJid(conn.user.id);
-    const emojis = ['🐼', '💸', '😇'];
+    const emojis = ['🐼', '🫟', '💫'];
     const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
     await conn.sendMessage(mek.key.remoteJid, {
       react: {
