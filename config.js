@@ -9,11 +9,11 @@ SESSION_ID: process.env.SESSION_ID || "ZQoW0LpR#LChxWv9sF99n-YJY6HLopiVLi9fhoozd
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "𝘼𝙐𝙏𝙊 𝙎𝙏𝘼𝙏𝙐𝙎 𝙎𝙀𝙀𝙉 𝘽𝙔 𝘼𝙉𝙐𝙃𝘼𝙎-𝙈𝘿 𝙒𝙃𝘼𝙏𝙎 𝘼𝙋𝙋 𝘽𝙊𝙏 🐼💗❞",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "https://github.com/anuhzz-78/Paka-md/raw/refs/heads/main/anuhas-base/voice/sr12345678.mp3",
 // set the auto reply massage on status reply  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
