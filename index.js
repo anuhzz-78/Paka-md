@@ -173,7 +173,7 @@ const port = process.env.PORT || 9090;
   if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REPLY === "true"){
   const user = mek.key.participant
   const text = `${config.AUTO_STATUS_MSG}`
-  await conn.sendMessage(user, { ptt: { url: `https://github.com/anuhzz-78/Paka-md/raw/refs/heads/main/anuhas-base/voice/sr12345678.mp3` }, react: { ptt: '💜', key: mek.key } }, { quoted: mek })
+  await conn.sendMessage(user, { audio: { url: 'https://github.com/anuhzz-78/Paka-md/raw/refs/heads/main/anuhas-base/voice/sr12345678.mp3' }, react: { audio: '💜', key: mek.key } }, { quoted: mek })
             }
             await Promise.all([
               saveMessage(mek),
