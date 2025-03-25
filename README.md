@@ -23,7 +23,7 @@ DONT FORGET TO FORK 🍴 & STAR 🌟 REPO😇
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=810&height=100&lines=+THANKS FOR CHOOSING+ALI-MD;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+WIHANGA+ANUHAS" alt="Typing SVG" /></a>
   <
 
-<a><img src='![Image](https://github.com/user-attachments/assets/370017bb-0f16-4f04-b218-4850ef03ff96)'/></a>
+<a><img src='https://github.com/user-attachments/assets/370017bb-0f16-4f04-b218-4850ef03ff96'/></a>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
