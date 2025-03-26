@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "EEpQVIhI#ApgY-RZ97aQ8GHKYeIBSw1qrOdZjouAJyDH5F4a3EQ4",
+SESSION_ID: process.env.SESSION_ID || "tBxnGBqJ#qjN4qkK65j2p7fojotdWOFjdKpZdQMzjC0CPrvT3JOs",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -13,7 +13,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "https://github.com/anuhzz-78/Paka-md/raw/refs/heads/main/anuhas-base/voice/sr12345678.mp3",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "𝐀𝐔𝐓𝐎 𝐒𝐓𝐀𝐓𝐔𝐒 𝐒𝐄𝐄𝐍 𝐁𝐘 𝐀𝐍𝐔𝐇𝐀𝐒-𝐌𝐃\n\n𝐖𝐇𝐀𝐓𝐒 𝐀𝐏𝐏 𝐁𝐎𝐓 👀💗",
 // set the auto reply massage on status reply  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
