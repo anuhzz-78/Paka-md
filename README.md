@@ -26,3 +26,11 @@ DONT FORGET TO FORK 🍴 & STAR 🌟 REPO😇
 <a><img src='https://github.com/user-attachments/assets/370017bb-0f16-4f04-b218-4850ef03ff96'/></a>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>< 
+
+
+> **1. PAIR CODE SESSION ID**
+
+<a href='https://ali-md-web-qr-pair-z8r2.onrender.com' target="_blank">
+  <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=black'/>
+</a>
+<br> 
