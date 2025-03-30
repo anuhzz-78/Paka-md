@@ -39,37 +39,37 @@ let msg = generateWAMessageFromContent(
             cards: [
               {
                 header: proto.Message.InteractiveMessage.Header.create({
-          ...(await prepareWAMessageMedia({ image: { url: 'https://i.postimg.cc/WbnqbfNd/NEW.png' } }, { upload: conn.waUploadToServer })),
+          ...(await prepareWAMessageMedia({ image: { url: 'https://i.ibb.co/KxYkt1ZX/663.jpg' } }, { upload: conn.waUploadToServer })),
           title: ``,
           gifPlayback: true,
-          subtitle: 'TIGRE - X - REPO',
+          subtitle: 'ANUHAS MD',
           hasMediaAttachment: false
         }),
                 body: {
-                  text: `TIGER-MD BUTTON MENU`
+                  text: `ANUHAS MD BUTTON MENU`
                 },
                 nativeFlowMessage: {
                   buttons: [
                     {
       "name": "quick_reply",
-      "buttonParamsJson": `{"display_text":"Alive 👨🏼‍💻",
+      "buttonParamsJson": `{"display_text":".Alive 👨🏼‍💻",
       "id": ".alive"}`
              },
                     {
      "name": "quick_reply",
-     "buttonParamsJson": `{"display_text":"Ping ⚡",
+     "buttonParamsJson": `{"display_text":".Ping ⚡",
      "id": ".ping"}`
              },
 
                         {
      "name": "quick_reply",
-     "buttonParamsJson": `{"display_text":"menu 💗",
+     "buttonParamsJson": `{"display_text":".list 💗",
      "id": ".list"}`
              },
 
                         {
      "name": "quick_reply",
-     "buttonParamsJson": `{"display_text":"owner 👨🏼‍💻",
+     "buttonParamsJson": `{"display_text":".owner 👨🏼‍💻",
      "id": ".owner"}`
              },
                       
