@@ -7,9 +7,9 @@ const {readEnv} = require('../lib/database')
 
 
 cmd({
-  pattern: "menu2",
+  pattern: "menu",
   react: "📂",
-  alias: ["panel","list","commands"],
+  alias: ["pane","lis","com"],
   desc: "Get bot\'s command list.",
   category: "main",
   use: '.menu',
