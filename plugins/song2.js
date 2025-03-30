@@ -1,4 +1,5 @@
 const dy_scrap = new DY_SCRAP();
+const DY_SCRAP = require('@dark-yasiya/scrap');
 
 cmd({
     pattern: "song",
@@ -10,7 +11,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 if(!q) return reply("*example play tionwayne we won*")
-const search = await dy_scrap.ytsearch(q)
+const search = await DY_SCRAP.ytsearch(q)
 const data = search.results[0]
 const url = data.url
 
@@ -26,7 +27,7 @@ ANUHAS MD ©
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
 //download audio
-const audioData = await dy_scrap.ytmp3(url)
+const audioData = await DY_SCRAP.ytmp3(url)
 let downloadUrl = audioData.result.download.url
 
 //send audio
