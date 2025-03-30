@@ -7,7 +7,7 @@ cmd({
 
     react: "😙",
 
-    alias: ["allmenu","bot","commands"],
+    alias: ["allmenu","bot","list"],
 
     desc: "Get bot\'s command list.",
 
